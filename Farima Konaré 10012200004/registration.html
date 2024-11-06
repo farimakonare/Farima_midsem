@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <body class="register">
+        
+        <header class="title1">
+            <h1 class="theregistration">Register</h1>
+        </header>
+
+        <fieldset>
+        <form>
+        
+            <label for = "Name">Name:</label>
+            <p>
+                <input  type = "text" 
+                        id="name" 
+                        name = "name" 
+                        placeholder="name" 
+                        required              
+                >
+            </p>
+
+            <label for="email">Email:</label>
+            <p>
+                <input  type = "email" 
+                        id="email" 
+                        name = "email" 
+                        placeholder="email adress" 
+                        required 
+                >
+            </p>
+
+            <label for="tel">Phone Number:</label>
+            <p>
+                <input  type="tel" 
+                        id="tel" 
+                        name="tel" 
+                        minlength ="10" 
+                        placeholder="phone"
+                        required
+                >
+            </p>
+
+                <label for="ticketType">Choose your ticket type:</label>
+                <p >
+                    <select class="ticketType" name="ticketType">
+                        <option value="general">General</option>
+                        <option value="vip">VIP</option>
+                    </select>
+                </p>
+            <button type="submit" class="submit">Submit</button>
+                
+        </form>
+
+    </fieldset>
+
+        <footer class="bottom1">
+            <p><a href="index.html">Back to Home</a></p>
+        </footer>
+    </body>
+
+</html>
